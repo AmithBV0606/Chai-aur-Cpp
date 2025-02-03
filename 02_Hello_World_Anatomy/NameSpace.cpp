@@ -5,6 +5,7 @@ using namespace std;
 using std::cout;
 using std::endl;
 
+// Custom namespace :
 namespace mySpace
 {
     void display()
@@ -16,7 +17,7 @@ namespace mySpace
 int main()
 {
     cout << "Hello World";
-    // std::cout << "Hello World";
+    // std::cout << "Hello World"; // When "using namespace std" is not written at the top
     mySpace::display();
     return 0;
 }

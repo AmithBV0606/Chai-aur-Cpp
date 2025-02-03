@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> // Controlls inout and output streams
 #include <string>
 using namespace std;
 
